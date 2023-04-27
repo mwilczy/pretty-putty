@@ -5,7 +5,7 @@ Windows Registry Editor Version 5.00
 ; ------------------------------------------------------------------------------
 
 ; Replace "FOO%20BAR" with the PuTTY session name you would like to modify.
-[HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\FOO%20BAR]
+[HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\powerlab]
 
 ; Color options
 "ANSIColour"=dword:00000001
@@ -47,11 +47,11 @@ Windows Registry Editor Version 5.00
 
 ; Consolas 12pt ClearType font
 "Font"="Consolas"
-"FontHeight"=dword:0000000c
+"FontHeight"=dword:0000000e
 "FontQuality"=dword:00000003
 
 ; Linux style copy-and-pasting (middle click to paste)
-"MouseIsXterm"=dword:00000001
+"MouseIsXterm"=dword:00000000
 
 ; Scrollback buffer set to 2000 lines
 "ScrollbackLines"=dword:000007d0
@@ -64,5 +64,5 @@ Windows Registry Editor Version 5.00
 "HideMousePtr"=dword:00000001
 
 ; Initial window size set to 80x40
-"TermHeight"=dword:00000028
-"TermWidth"=dword:00000050
+"TermHeight"=dword:00000024
+"TermWidth"=dword:00000080
